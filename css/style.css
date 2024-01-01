@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #7a6960;
+    font: Raleway, sans-serif;
+}
+
+nav li {
+    padding: 10px 0px 10px 30px;
+}
+
+.header_button {
+    background-color: #EB5D1E;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+
+}
+
+.hero {
+    background-color: #FEF8F5;
+}
+
+.hero_left h1 {
+    font-size: 48px;
+    color: #4e4039;
+}
+
+.hero_left p {
+    font-size: 25px;
+    color: #A08F86;
+    margin: 15px 0px;
+}
+
+.hero_button {
+    background-color: #EB5D1E;
+    padding: 8px 28px;
+    color: white;
+    font-size: 16px;
+}
+
+.top h2 {
+    font-size: 34px;
+    color: #4E4039;
+}
+
+.top P {
+    font-size: 15px;
+    color: #5A6570;
+}
+
+.left h4 {
+    font-size: 20px;
+    color: #7A6960;
+}
+
+.left P {
+    font-size: 15px;
+    color: #5A6570;
+}
+
+.right h4 {
+    font-size: 20px;
+    color: #7A6960;
+}
+
+.right P {
+    font-size: 15px;
+    color: #5A6570;
+}
+
+
+.left i {
+    font-size: 48px;
+    color: #f39e7a;
+}
+
+.right i {
+    font-size: 48px;
+    color: #f39e7a;
+}
+
+.service {
+    background-color: #FEF8F5;
+
+}
+
+.common_header h3 {
+    font-size: 24px;
+    color: #C2B7B1;
+}
+
+.common_header h2 {
+    font-size: 32px;
+    color: #4E4039;
+    padding-bottom: 10px;
+}
+
+.service .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+}
+
+.firt_service i {
+    font-size: 48px;
+    color: rgb(239, 127, 77);
+}
+
+.second_service i {
+    font-size: 48px;
+    color: rgb(239, 127, 77);
+}
+
+.third_service i {
+    font-size: 48px;
+    color: rgb(239, 127, 77);
+}
+
+.fourth_service i {
+    font-size: 48px;
+    color: rgb(239, 127, 77);
+    text-align: center;
+}
+
+.card{
+    transform: translateY(7px);
+    transition: 0.4s all ease;
+}
+
+.card:hover{
+    transform: translateY(0px);
+    border-bottom: 3px solid rgb(239, 127, 77);
+}
+
+.portfolio_section .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+
+}
+
+
+.port_iteams ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.port_iteams ul li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.port_iteams .f_port_iteam a {
+    color: #EB5D1E;
+}
+
+.port_iteams ul li a:hover {
+    color: #EB5D1E;
+}
+
+.faq {
+    background-color: #FEF8F5;
+}
+
+.faq .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+}
+.accordion{
+    --accordion-active-color: #{$accordion-button-active-color};
+    --bs-accordion-active-bg:#FEF8F5;
+    --bs-accordion-btn-focus-box-shadow: #FEF8F5;
+    --bs-accordion-bg: #FEF8F5;
+}
+
+.accordion-item {
+    background-color: #fef5f5;
+
+}
+
+.team .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+}
+
+.clients {
+    background-color: #FEF8F5;
+
+}
+
+.clients .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+}
+
+.portfolio_pic{
+    position: relative;
+}
+
+/* Before css property  start*/
+.portfolio_pic::before{
+    position: absolute;
+    content: " ";
+    background-color: rgba(107, 92, 106, 0.582);
+    width: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+.portfolio_pic:hover:before{
+    width: 100%;
+}
+/* Before css property  end*/
+
+/* Contact us section css start */
+.contact_us .underline {
+    width: 70px;
+    height: 2px;
+    background-color: #EB5D1E;
+    margin: 0 auto;
+}
+.icons{
+    font-size: 30px;
+    color: #EB5D1E;
+}
+
+.icons:hover{
+    color: #5A6570;
+}
+
+.container{
+    height: 100%;
+}
+
+.head_address{
+    color: #7A6960;
+}
+
+.location_mail_call{
+    border-top: 3px solid #eb5d1e;
+    border-bottom: 3px solid #eb5d1e;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    min-height: 300px;
+}
+
+.input_messages{
+    height: 285px;
+}
+
+.name_email_subject_messages{
+    border-top: 3px solid #eb5d1e;
+    border-bottom: 3px solid #eb5d1e;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    min-height: 300px;
+}
+
+.messages_btn .btn{
+    background-color: #EB5D1E;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.btn:hover{
+    background-color:#eb5c1eb9 ;
+    color: white;
+}
+.inside,.your_subject,.input_messages{
+ outline: none;
+}
+
+.inside:focus,.your_subject:focus,.input_messages:focus{
+border: 1px solid aqua;
+}
+/* Contact us section css end */
+
+
+/* important css & tricky too start*/
+.social_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_links a{
+    background-color: white;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: orangered;
+    margin-bottom: 50px;
+    transition: 0.7s ease all;
+}
+.social_links a .bx{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.social_links a:hover{
+    background-color: rgba(255, 72, 0, 0.753);
+    color: white;
+    
+}
+
+.image_content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: 0.7s ease all;
+    color: wheat;
+}
+
+.portfolio_pic:hover .image_content{
+    opacity: 1;
+    z-index: 2;
+} 
+
+/* important css & tricky too end*/
+
+
+/* Newsletter section css start */
+.newsletter{
+    background-color: #FEF8F5;
+
+}
+.newsletter_content{
+    color: #4e4039;
+}
+
+.n_space{
+    width: 410px;
+    padding: 5px 20px;
+}
+
+.n_btn{
+    background-color: #EB5D1E;
+    padding: 5px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: none;
+}
+/* Newsletter section css end */
+
+/* Footer_top css start */
+
+.footer_herder{
+    color: #212529;
+}
+.footer_top .footer_list ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer_top .footer_list ul .bx{
+    color: #d30909;
+
+}
+
+.footer_top .footer_icon a{
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background-color: #EB5D1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+
+.footer_top .footer_icon a .bx{
+    font-size: 20px; 
+    
+}
+/* Footer_top css end */
+
+
+/* Footer section start */
+.footer{
+    background-color: #fef5f5;
+
+}
+.footer_right .my_name{
+    color: #eb5d1e;
+}
+/* Footer section start */
